@@ -1,58 +1,32 @@
-
 .wrapper {
   display: flex;
 }
 
+/* サイドバーの部分 */
 .side-bar {
+  background-color: #253141;
   width: 300px;
   height: 100vh;
-  background-color: #253141;
 }
 
-.side-top {
+.side-bar-top {
   height: 100px;
   padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.side-header-name a{
-  color: #fafafa;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.write a{
-  color: deepskyblue;
-  font-size: 10px;
-  border: 1px solid lightblue;
-  padding: 14px;
-  text-decoration: none;
 }
 
 .rooms {
-  background-color: #2F3E51;
+  background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
-  overflow: scroll;
 }
 
-.room {
-  padding: 20px 0 40px;
-}
-
-.room-name a {
-  color: white;
-  text-decoration: none;
-}
-
+/* ここから、チャットメインのところ */
 .chat {
-  width: calc(100% - 300px);
   background-color: #ffffff;
+  width: calc(100% - 300px);
 }
 
-.chat-header {
+.header {
   background-color: #ffffff;
   height: 100px;
   padding: 0 40px;
